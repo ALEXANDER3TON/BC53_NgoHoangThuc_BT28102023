@@ -1,0 +1,40 @@
+.cardItem {
+    height: 396px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 9px;
+    box-shadow: 0 3px 6px 3px rgba(157, 255, 0, 0.568);
+    .cardInfo{
+        p{
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+        }
+    }
+    .btnAction{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.cart {
+    width: 45px;
+    position: relative;
+    cursor: pointer;
+    .cartNum {
+        display: flex;
+        background: white;
+        font-weight: 600;
+        justify-content: center;
+        align-items: center;
+        width: 21px;
+        height: 21px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        position: absolute;
+        left: 15px;
+        top: 3px;
+    }
+}
