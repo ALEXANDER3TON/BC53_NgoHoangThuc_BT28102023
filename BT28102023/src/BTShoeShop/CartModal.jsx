@@ -54,7 +54,7 @@ export const CartModal = (props) => {
                           <td>
                             <p style={{ width: 300 }}>{product.description}</p>
                           </td>
-                          <td>{product.price}</td>
+                          <td>${product.price}</td>
                           <td>
                             <button className="btn btn-success" onClick={() => {
                                 handleCartQuantity(product.id, 1)
@@ -64,7 +64,7 @@ export const CartModal = (props) => {
                                 handleCartQuantity(product.id, -1)
                             }}>-</button>
                           </td>
-                          <td>{product.cartQuantity*product.price}</td>
+                          <td>${product.cartQuantity*product.price}</td>
                           <td>
                             <button className="btn btn-primary" onClick={() => {
                                 deleteProductFromCart(product.id)

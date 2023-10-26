@@ -15,7 +15,6 @@ export const BTShoeShop = () => {
     shortDescription: "",
     quantity: 0,
     image: "",
-    cartQuantity: 1, //so luong mua
   });
   const handleProductDetails = (product) => {
     setProductDetails(product);
